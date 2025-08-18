@@ -17,7 +17,9 @@
         
           
             &lt;h2 id=&#34;hugo安装&#34;&gt;Hugo安装&lt;/h2&gt;
-&lt;h2 id=&#34;选择主题&#34;&gt;选择主题&lt;/h2&gt;
+&lt;p&gt;MacOS上使用使用homebrew进行安装&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;brew install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;选择主题&#34;&gt;选择主题&lt;/h2&gt;
 &lt;h2 id=&#34;发布到gitpage&#34;&gt;发布到GitPage&lt;/h2&gt;
 &lt;h2 id=&#34;自动化&#34;&gt;自动化&lt;/h2&gt;
           
