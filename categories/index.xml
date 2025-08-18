@@ -4,8 +4,7 @@
     <title>Categories on Chris的全栈空间</title>
     <link>https://chrisforgezone.github.io/categories/</link>
     <description>Recent content in Categories on Chris的全栈空间</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://chrisforgezone.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://chrisforgezone.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
