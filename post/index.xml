@@ -7,5 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 Aug 2025 18:40:13 +0800</lastBuildDate><atom:link href="https://chrisforgezone.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git十分钟教程</title>
+      <link>https://chrisforgezone.github.io/post/git%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sat, 16 Aug 2025 18:40:13 +0800</pubDate>
+      
+      <guid>https://chrisforgezone.github.io/post/git%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;git基本概念&#34;&gt;Git基本概念&lt;/h2&gt;
+&lt;h2 id=&#34;git分支管理&#34;&gt;Git分支管理&lt;/h2&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>使用Hugo&#43;GitPage搭建个人站点</title>
+      <link>https://chrisforgezone.github.io/post/%E4%BD%BF%E7%94%A8hugo&#43;gitpage%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%AB%99%E7%82%B9/</link>
+      <pubDate>Sat, 16 Aug 2025 18:40:13 +0800</pubDate>
+      
+      <guid>https://chrisforgezone.github.io/post/%E4%BD%BF%E7%94%A8hugo&#43;gitpage%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%AB%99%E7%82%B9/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;hugo安装&#34;&gt;Hugo安装&lt;/h2&gt;
+&lt;p&gt;MacOS上使用使用homebrew进行安装&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;brew install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;选择主题&#34;&gt;选择主题&lt;/h2&gt;
+&lt;h2 id=&#34;发布到gitpage&#34;&gt;发布到GitPage&lt;/h2&gt;
+&lt;h2 id=&#34;自动化&#34;&gt;自动化&lt;/h2&gt;
+          
+          
+        
+      </description>
+    </item>
+    
   </channel>
 </rss>

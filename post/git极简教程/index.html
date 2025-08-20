@@ -8,12 +8,15 @@
   
   
   >
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
 <title>Git十分钟教程 | Chris的全栈空间</title>
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
 
 
 <meta property="og:locale" content="en" />
@@ -24,30 +27,30 @@ Git分支管理" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
 <meta name="twitter:title" content="Git十分钟教程" />
-<meta name="twitter:image" content="http://localhost:1313/"/>
-<meta property="og:url" content="http://localhost:1313/post/git%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B/" />
+<meta name="twitter:image" content="https://chrisforgezone.github.io/"/>
+<meta property="og:url" content="https://chrisforgezone.github.io/post/git%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B/" />
 <meta property="og:title" content="Git十分钟教程" />
 <meta property="og:description" content="Git基本概念
 Git分支管理" />
-<meta property="og:image" content="http://localhost:1313/" />
+<meta property="og:image" content="https://chrisforgezone.github.io/" />
 
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/icons/favicon-32x32.png">
-<link rel="manifest" href="http://localhost:1313/icons/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="https://chrisforgezone.github.io/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://chrisforgezone.github.io/icons/favicon-32x32.png">
+<link rel="manifest" href="https://chrisforgezone.github.io/icons/site.webmanifest">
 
-<link rel="canonical" href="http://localhost:1313/post/git%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B/">
-
-
-
-<link rel="preload" href="http://localhost:1313/css/styles.dc38388a8f0b890e788bd3a99b7495d14e7d5ac4359ed3b49abeb778497863b284ad4cc7e496ef58c84139295f9bafed82f5a41345eda86bd2d429cccb7c2596.css" integrity = "sha512-3Dg4io8LiQ54i9Opm3SV0U59WsQ1ntO0mr63eEl4Y7KErUzH5JbvWMhBOSlfm6/tgvWkE0XtqGvS1CnMy3wllg==" as="style" crossorigin="anonymous">
+<link rel="canonical" href="https://chrisforgezone.github.io/post/git%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B/">
 
 
 
-<link rel="preload" href="http://localhost:1313/en/js/bundle.698af129358133dc3d8640763d07323ac60fa49281b0a438ac7bd15445d00b467c8209fea9775331115edbb6cce777077ca2169a30c92039edf2f6a9d6d69226.js" as="script" integrity=
-"sha512-aYrxKTWBM9w9hkB2PQcyOsYPpJKBsKQ4rHvRVEXQC0Z8ggn&#43;qXdTMRFe27bM53cHfKIWmjDJIDnt8vap1taSJg==" crossorigin="anonymous">
+<link rel="preload" href="https://chrisforgezone.github.io/css/styles.dc38388a8f0b890e788bd3a99b7495d14e7d5ac4359ed3b49abeb778497863b284ad4cc7e496ef58c84139295f9bafed82f5a41345eda86bd2d429cccb7c2596.css" integrity = "sha512-3Dg4io8LiQ54i9Opm3SV0U59WsQ1ntO0mr63eEl4Y7KErUzH5JbvWMhBOSlfm6/tgvWkE0XtqGvS1CnMy3wllg==" as="style" crossorigin="anonymous">
 
 
-<link rel="stylesheet" type="text/css" href="http://localhost:1313/css/styles.dc38388a8f0b890e788bd3a99b7495d14e7d5ac4359ed3b49abeb778497863b284ad4cc7e496ef58c84139295f9bafed82f5a41345eda86bd2d429cccb7c2596.css" integrity="sha512-3Dg4io8LiQ54i9Opm3SV0U59WsQ1ntO0mr63eEl4Y7KErUzH5JbvWMhBOSlfm6/tgvWkE0XtqGvS1CnMy3wllg==" crossorigin="anonymous">
+
+<link rel="preload" href="https://chrisforgezone.github.io/en/js/bundle.94339a9a35bc58a909ff93b0e0c565852cd1b14cf720f896b880bffa933dcdbd060ace66e3b9b3ccc12f657dd3ba8a477f4658ddac07c452e32c0dbc34495db2.js" as="script" integrity=
+"sha512-lDOamjW8WKkJ/5Ow4MVlhSzRsUz3IPiWuIC/&#43;pM9zb0GCs5m47mzzMEvZX3TuopHf0ZY3awHxFLjLA28NEldsg==" crossorigin="anonymous">
+
+
+<link rel="stylesheet" type="text/css" href="https://chrisforgezone.github.io/css/styles.dc38388a8f0b890e788bd3a99b7495d14e7d5ac4359ed3b49abeb778497863b284ad4cc7e496ef58c84139295f9bafed82f5a41345eda86bd2d429cccb7c2596.css" integrity="sha512-3Dg4io8LiQ54i9Opm3SV0U59WsQ1ntO0mr63eEl4Y7KErUzH5JbvWMhBOSlfm6/tgvWkE0XtqGvS1CnMy3wllg==" crossorigin="anonymous">
 
   </head>
   <body
@@ -58,7 +61,7 @@ Git分支管理" />
   >
 
 <header class="nav_header" >
-  <nav class="nav"><a href='http://localhost:1313/' class="nav_brand nav_item" title="Chris的全栈空间">Chris的全栈空间
+  <nav class="nav"><a href='https://chrisforgezone.github.io/' class="nav_brand nav_item" title="Chris的全栈空间">Chris的全栈空间
   <div class="nav_close">
     <div><svg class="icon">
   <title>open-menu</title>
@@ -108,14 +111,14 @@ Git分支管理" />
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=Git%e5%8d%81%e5%88%86%e9%92%9f%e6%95%99%e7%a8%8b&url=http%3a%2f%2flocalhost%3a1313%2fpost%2fgit%25E6%259E%2581%25E7%25AE%2580%25E6%2595%2599%25E7%25A8%258B%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Git%e5%8d%81%e5%88%86%e9%92%9f%e6%95%99%e7%a8%8b&url=https%3a%2f%2fchrisforgezone.github.io%2fpost%2fgit%25E6%259E%2581%25E7%25AE%2580%25E6%2595%2599%25E7%25A8%258B%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fpost%2fgit%25E6%259E%2581%25E7%25AE%2580%25E6%2595%2599%25E7%25A8%258B%2f&t=Git%e5%8d%81%e5%88%86%e9%92%9f%e6%95%99%e7%a8%8b" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fchrisforgezone.github.io%2fpost%2fgit%25E6%259E%2581%25E7%25AE%2580%25E6%2595%2599%25E7%25A8%258B%2f&t=Git%e5%8d%81%e5%88%86%e9%92%9f%e6%95%99%e7%a8%8b" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
@@ -129,7 +132,7 @@ Git分支管理" />
 </svg>
 
     </a>
-    <a href="http://localhost:1313/post/git%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B/" title="Copy Link" class="link link_yank">
+    <a href="https://chrisforgezone.github.io/post/git%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <title>copy</title>
   <use xlink:href="#copy"></use>
@@ -164,10 +167,10 @@ Git分支管理" />
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
       <li>
-        <a href="http://localhost:1313/post/git%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B/" class="nav-link" title="Git十分钟教程">Git十分钟教程</a>
+        <a href="https://chrisforgezone.github.io/post/git%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B/" class="nav-link" title="Git十分钟教程">Git十分钟教程</a>
       </li>
       <li>
-        <a href="http://localhost:1313/post/%E4%BD%BF%E7%94%A8hugo&#43;gitpage%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%AB%99%E7%82%B9/" class="nav-link" title="使用Hugo&#43;GitPage搭建个人站点">使用Hugo+GitPage搭建个人站点</a>
+        <a href="https://chrisforgezone.github.io/post/%E4%BD%BF%E7%94%A8hugo&#43;gitpage%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%AB%99%E7%82%B9/" class="nav-link" title="使用Hugo&#43;GitPage搭建个人站点">使用Hugo+GitPage搭建个人站点</a>
       </li>
     </ul>
   </section>
@@ -261,7 +264,7 @@ Git分支管理" />
 
 <footer class="footer">
   <div class="footer_inner wrap pale">
-    <img src='http://localhost:1313/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt="Chris的全栈空间">
+    <img src='https://chrisforgezone.github.io/icons/apple-touch-icon.png' class="icon icon_2 transparent" alt="Chris的全栈空间">
     <p>Copyright&nbsp;<span class="year"></span>&nbsp;CHRIS的全栈空间. All Rights Reserved</p><a class="to_top" href="#documentTop">
   <svg class="icon">
   <title>to-top</title>
@@ -273,6 +276,6 @@ Git分支管理" />
   </div>
 </footer>
 
-<script type="text/javascript" src="http://localhost:1313/en/js/bundle.698af129358133dc3d8640763d07323ac60fa49281b0a438ac7bd15445d00b467c8209fea9775331115edbb6cce777077ca2169a30c92039edf2f6a9d6d69226.js" integrity="sha512-aYrxKTWBM9w9hkB2PQcyOsYPpJKBsKQ4rHvRVEXQC0Z8ggn&#43;qXdTMRFe27bM53cHfKIWmjDJIDnt8vap1taSJg==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://chrisforgezone.github.io/en/js/bundle.94339a9a35bc58a909ff93b0e0c565852cd1b14cf720f896b880bffa933dcdbd060ace66e3b9b3ccc12f657dd3ba8a477f4658ddac07c452e32c0dbc34495db2.js" integrity="sha512-lDOamjW8WKkJ/5Ow4MVlhSzRsUz3IPiWuIC/&#43;pM9zb0GCs5m47mzzMEvZX3TuopHf0ZY3awHxFLjLA28NEldsg==" crossorigin="anonymous"></script>
   </body>
 </html>
