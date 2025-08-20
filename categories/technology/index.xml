@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Chris的全栈空间</title>
+    <link>http://localhost:1313/categories/technology/</link>
+    <description>Recent content in Technology on Chris的全栈空间</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Aug 2025 07:25:59 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git极简教程</title>
+      <link>http://localhost:1313/post/git%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Wed, 20 Aug 2025 07:25:59 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/git%E6%9E%81%E7%AE%80%E6%95%99%E7%A8%8B/</guid>
+      <description>
+        
+          
+            &lt;p&gt;&lt;strong&gt;Insert Lead paragraph here.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;git基本概念&#34;&gt;Git基本概念&lt;/h2&gt;
+&lt;h2 id=&#34;git分支管理&#34;&gt;Git分支管理&lt;/h2&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
